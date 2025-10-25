@@ -20,8 +20,8 @@ typedef struct listint_s
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
-/* Task 0: Bubble sort */
-void bubble_sort(int *array, size_t size);
+/* Task 1 */
+void insertion_sort_list(listint_t **list);
 
 #endif /* SORT_H */
 
